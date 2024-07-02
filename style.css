@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:aliceblue;
+}
+h2 {
+    text-align: center;
+}
+ul, li  {
+    list-style: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    border-radius: 50%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 0 100px ;
+    
+}
+.header-title {
+    font-size: 46px;
+}
+.header-subtitle {
+    margin-top: 20px;
+}
+
+.column-header {
+    background-color: #ffff
+    ;
+ box-shadow: 0 4px 12px 0 #0d234308;
+ position: relative;
+ border-color: black;
+ border-radius: 20%;
+}
+
+
+
+
+
+
+.main {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.right-column,.left-column {
+    background-color: #fff;
+}
+
+
+.right-column {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px ;
+    border-radius: 20%;
+}
+.left-column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+ 
+}
+.aboutme-title {
+    text-align: center;
+
+}
+.aboutme p {
+    margin-top: 10px;
+}
+
+
+.code-example {
+    margin-top: 10px;
+}
+
+.contacts ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.education-block {
+    margin-top: 10px;
+}
+.education-date {
+    margin-top: 10px;
+}
+
+.skills-title  {
+    margin-top: 10px;
+}
+.footer-wrapper {
+    display:  flex;
+    justify-content: space-between;
+}
+.footer-title {
+    align-self: center;
+}
+
+.rss-img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer {
+    margin-top: 30px;
+    background-color: #ffff;
+    border-radius: 50px;
+    padding: 20px;
+}
